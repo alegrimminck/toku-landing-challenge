@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <link rel="stylesheet" href="./style.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite App</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body class="font-toku">
+    <main>
+      <header class="text-[15px] text-white">
+        <!-- mini nav -->
+        <ul
+          class="flex h-10 items-center justify-end gap-5 bg-dark-violet md:gap-8 md:px-[19.5vw]"
+        >
+          <li>
+            <a class="opacity-90" href="https://trytoku.com">Iniciar sesión</a>
+          </li>
+          <li>
+            <a class="opacity-90" href="https://trytoku.com">Crear cuenta</a>
+          </li>
+          <li class="mr-7 flex items-center justify-center gap-2 md:mr-0">
+            <img
+              class="h-5"
+              src="https://trytoku.com/hubfs/1-1.png"
+              alt="chilean flag"
+            />
+            <p class="-mr-1 hidden md:block">Chile</p>
+            <img
+              src="https://trytoku.com/hubfs/Toku-2023/iconos/arrow-menu.png"
+              alt="arrow menu"
+              style="
+                filter: invert(95%) sepia(0%) saturate(7500%) hue-rotate(81deg)
+                  brightness(109%) contrast(107%);
+              "
+            />
+          </li>
+        </ul>
+        <!-- navbar -->
+        <nav
+          class="flex h-[120px] items-start justify-between px-[21px] py-6 md:items-center md:px-[18.4vw]"
+        >
+          <img
+            class="h-[35px] self-center"
+            src="https://trytoku.com/hubfs/Toku-2023/logo-toku-home.png"
+            alt="toku logo"
+          />
+          <ul
+            class="hidden items-center gap-8 pr-3 text-base text-dark-gray md:flex md:pr-0"
+          >
+            <li>
+              <a class="hover:text-soft-violet" href="https://trytoku.com"
+                >Documentación</a
+              >
+            </li>
+            <li>
+              <a class="hover:text-soft-violet" href="https://trytoku.com"
+                >Soluciones</a
+              >
+            </li>
+            <li class="flex">
+              <a class="hover:text-soft-violet" href="https://trytoku.com"
+                >Recursos</a
+              >
+              <img
+                src="https://trytoku.com/hubfs/Toku-2023/iconos/arrow-menu.png"
+                alt="arrow menu"
+              />
+            </li>
+            <li>
+              <a class="btn-primary"> Consultoría gratuita </a>
+            </li>
+          </ul>
+
+          <button class="mt-3 flex h-8 flex-col justify-between pr-1 md:hidden">
+            <hr class="h-1 w-7 bg-soft-violet" />
+            <hr class="h-1 w-7 bg-soft-violet" />
+            <hr class="h-1 w-7 bg-soft-violet" />
+          </button>
+        </nav>
+      </header>
+      <!-- main -->
+      <main>
+        <!-- first-section -->
+        <div class="bg-mobile md:bg-desktop md:h-[85vh]">
+          <div
+            class="h-[500px] px-5 pt-24 text-white md:flex md:h-[80vh] md:flex-col md:justify-center md:px-[18.4vw] md:pt-0"
+          >
+            <h2
+              class="text-[35px] font-extrabold leading-[1.1em] md:max-w-[800px] md:text-6xl md:font-medium md:leading-[1.2em]"
+            >
+              Tu partner financiero para que te concentres en alcanzar tus
+              sueños
+            </h2>
+            <p
+              class="mt-[15px] mb-[50px] text-[17px] md:max-w-[700px] md:text-2xl md:leading-9"
+            >
+              Recauda más dinero todos los meses, ahorra en tus costos de
+              cobranza y da la mejor experiencia de pago.
+            </p>
+            <a
+              class="flex w-[220px] items-center justify-center rounded-lg bg-white py-3 font-normal text-soft-violet hover:bg-soft-violet hover:text-white"
+            >
+              Consultoría gratuita
+            </a>
+          </div>
+        </div>
+        <!-- second-section -->
+        <div class="my-20 flex flex-col items-center p-5">
+          <h2
+            class="mb-12 text-center text-[38px] font-medium leading-[1.1em] text-dark-gray"
+          >
+            Diseñado para recaudar pagos recurrentes
+          </h2>
+          <div
+            class="grid grid-cols-2 gap-4 text-center text-dark-gray md:w-[970px] md:grid-cols-4 md:gap-7"
+          >
+            <div
+              class="flex flex-col items-center justify-start rounded-3xl bg-soft-gray px-2 pb-6 pt-3"
+            >
+              <img
+                class="h-32"
+                src="https://trytoku.com/hubfs/educacion.webp"
+                alt="hand with grabbed pencil"
+              />
+              <p class="-mt-2 text-[17px] font-medium">Educación</p>
+            </div>
+            <div
+              class="flex flex-col items-center justify-start rounded-3xl bg-soft-gray px-2 pb-6 pt-3"
+            >
+              <img
+                class="h-32"
+                src="https://trytoku.com/hubfs/seguros.webp"
+                alt="hand with grabbed pencil"
+              />
+              <p class="-mt-2 text-[17px] font-medium">Seguros</p>
+            </div>
+            <div
+              class="flex flex-col items-center justify-start rounded-3xl bg-soft-gray px-2 pb-6 pt-3"
+            >
+              <img
+                class="h-32"
+                src="https://trytoku.com/hubfs/servicios-basicos.webp"
+                alt="hand with grabbed pencil"
+              />
+              <p class="-mt-2 text-[17px] font-medium">Servicios Básicos</p>
+            </div>
+            <div
+              class="flex flex-col items-center justify-start rounded-3xl bg-soft-gray px-2 pb-6 pt-3"
+            >
+              <img
+                class="h-32"
+                src="https://trytoku.com/hubfs/bienes-raices.webp"
+                alt="hand with grabbed pencil"
+              />
+              <p class="-mt-2 text-[17px] font-medium">Bienes Raíces</p>
+            </div>
+            <div
+              class="flex flex-col items-center justify-start rounded-3xl bg-soft-gray px-2 pb-6 pt-3"
+            >
+              <img
+                class="h-32"
+                src="https://trytoku.com/hubfs/suscripcion.webp"
+                alt="hand with grabbed pencil"
+              />
+              <p class="-mt-2 text-[17px] font-medium">Suscripciones</p>
+            </div>
+            <div
+              class="flex flex-col items-center justify-start rounded-3xl bg-soft-gray px-2 pb-6 pt-3"
+            >
+              <img
+                class="h-32"
+                src="https://trytoku.com/hubfs/financieras.webp"
+                alt="hand with grabbed pencil"
+              />
+              <p class="-mt-2 text-[17px] font-medium">Financieras</p>
+            </div>
+            <div
+              class="flex flex-col items-center justify-start rounded-3xl bg-soft-gray px-2 pb-6 pt-3"
+            >
+              <img
+                class="h-32"
+                src="https://trytoku.com/hubfs/telco.webp"
+                alt="hand with grabbed pencil"
+              />
+              <p class="-mt-2 text-[17px] font-medium">Telco</p>
+            </div>
+            <div
+              class="flex flex-col items-center justify-start rounded-3xl bg-soft-gray px-2 pb-6 pt-3"
+            >
+              <img
+                class="h-32"
+                src="https://trytoku.com/hubfs/autopistas.webp"
+                alt="hand with grabbed pencil"
+              />
+              <p class="-mt-2 text-[17px] font-medium">Autopistas</p>
+            </div>
+          </div>
+        </div>
+        <!-- third-section -->
+        <div class="flex justify-center bg-very-soft-gary px-4 pt-8 pb-20">
+          <img
+            src="https://trytoku.com/hubfs/mockup-mobile-chile-500.webp"
+            alt=""
+            class="md:hidden"
+          />
+          <img
+            src="https://trytoku.com/hubfs/imagenes-webp/chile-portal-mockup-final-2000-webp.webp"
+            alt=""
+            class="hidden max-w-[1200px] md:block"
+          />
+        </div>
+        <!-- fourth-section -->
+        <div
+          class="bg-gray px-4 pt-20 text-center md:flex md:flex-col md:items-center"
+        >
+          <h2
+            class="mb-[66px] max-w-[720px] text-[42px] font-medium leading-[1.1em] text-dark-gray md:mb-16 md:text-[38px]"
+          >
+            La única herramienta que tu equipo de recaudación necesita
+          </h2>
+          <div
+            class="mb-6 flex flex-col gap-2 px-10 font-[arial] text-[17px] md:mb-12 md:flex-row"
+          >
+            <a
+              href=""
+              class="flex items-center justify-center rounded-xl bg-soft-violet py-[8px] font-bold text-white hover:bg-white hover:text-soft-violet md:w-[245px] md:text-sm"
+              >Portal del cliente</a
+            >
+            <a
+              href=""
+              class="flex items-center justify-center rounded-xl bg-button-gray px-[28px] py-[8px] text-button-text-gray hover:bg-white hover:text-soft-violet md:w-[245px] md:text-sm"
+              >Pagos automáticos</a
+            >
+            <a
+              href=""
+              class="flex items-center justify-center rounded-xl bg-button-gray px-[28px] py-[8px] text-button-text-gray hover:bg-white hover:text-soft-violet md:w-[245px] md:text-sm"
+              >Pagos Bancarios</a
+            >
+          </div>
+          <div
+            class="rounded-[3rem] bg-white px-7 pt-6 pb-8 text-left shadow-2xl md:flex md:max-w-[975px]"
+          >
+            <img
+              class="md:w-[500px]"
+              src="https://trytoku.com/hubfs/cl-portal-de-pago.webp"
+              alt=""
+            />
+            <div class="flex flex-col justify-end md:ml-12">
+              <h2
+                class="py-4 text-[32px] font-medium leading-9 text-dark-gray md:text-[28px] md:leading-8"
+              >
+                En tu sitio, con tu logo y colores
+              </h2>
+              <p class="text-[17px] text-dark-gray md:pr-16 md:text-base">
+                Todos los métodos de pago en un sólo lugar.
+              </p>
+              <a
+                class="mt-10 flex items-center gap-2 font-medium text-soft-violet md:mt-32 md:mb-6 md:text-sm"
+                href=""
+                >Ver más
+                <span>
+                  <svg
+                    class="h-3 fill-soft-violet"
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 512 512"
+                  >
+                    <path
+                      d="M502.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-128-128c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L402.7 224 32 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l370.7 0-73.4 73.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l128-128z"
+                    />
+                  </svg>
+                </span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </main>
+    </main>
+  </body>
+</html>

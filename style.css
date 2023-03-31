@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  .bg-mobile {
+    background-image: url("https://trytoku.com/hubfs/Toku-2023/home/fondo-banner-mobile-toku.webp");
+    background-size: cover;
+  }
+  .bg-desktop {
+    background-image: url("https://trytoku.com/hubfs/Toku-2023/home/fondo-banner-toku-pagos-recurrentes.webp");
+    background-size: cover;
+    background-position: center;
+  }
+
+  .bg-mobile-devices {
+    background-image: url("https://trytoku.com/hubfs/mockup-mobile-chile-500.webp");
+    background-size: cover;
+    background-position: center;
+  }
+}
+
+@layer components {
+  .btn-primary {
+    @apply flex items-center justify-center rounded-lg border-2 border-soft-violet bg-soft-violet px-[28px] py-[10px] font-normal text-white hover:border-2 hover:border-soft-violet hover:bg-white hover:text-soft-violet;
+  }
+}
