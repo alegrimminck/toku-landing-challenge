@@ -6,9 +6,10 @@ module.exports = {
       colors: {
         "dark-violet": "#5c0083",
         "soft-violet": "#7f00ae",
+        "pale-violet": "#dfc9ea",
         "dark-gray": "#373737",
         "soft-gray": "#eeebf1",
-        "very-soft-gary": "#f2f2f2",
+        "very-soft-gray": "#f2f2f2",
         gray: "#eceaef",
         "button-gray": "rgb(239,239,239)",
         "button-text-gray": "#8b878e",
